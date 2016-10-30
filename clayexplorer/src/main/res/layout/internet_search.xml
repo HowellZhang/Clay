@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/ll_searchUrl"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@mipmap/star"
+        android:id="@+id/tv_add_label"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/et_searchNet"
+        android:layout_width="0sp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"
+        android:background="@drawable/search_edittext"
+        android:hint="@string/hint_search"
+        android:inputType="textUri"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@mipmap/search"
+        android:id="@+id/tv_search"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@mipmap/refresh"
+        android:id="@+id/tv_refreshUrl"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

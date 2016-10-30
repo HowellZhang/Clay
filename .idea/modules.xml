@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clay.iml" filepath="$PROJECT_DIR$/Clay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clayexplorer/clayexplorer.iml" filepath="$PROJECT_DIR$/clayexplorer/clayexplorer.iml" />
+    </modules>
+  </component>
+</project>
